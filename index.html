@@ -1,0 +1,44 @@
+<html>
+    <head> </head>
+
+	<body style="font-size: xx-large; color: white; background-color: black;">
+
+		<h2>java</h2>
+		<p id="demo"></p>
+        <p id="demo2"></p>
+        <p id="joining"></p>
+        <p id="mylist"></p>
+        <p id="mylist2"></p>
+        <p id="demo3"></p>
+        <p id="demo4"></p>
+
+
+
+
+        <script>
+
+            var student={
+                name: "Riya",
+                age: 12,
+                Grade: 7,
+                hobbies:"Drawing",
+                fav_sport:"Chess"
+            };
+            var color=["white","black","red","green","blue"];
+            document.write("Student name is : "+ student.name,"<br>","student favorite sport is : "+student.fav_sport+"<br>");
+            document.write("Before Poping the colors are: "+color.join("^")+"<br>");
+            document.write("My favorite color is : "+color[3]+"<br>");
+            color.pop();
+            document.write("After Poping the color are : "+color.join("*"));
+
+
+
+
+
+           
+        </script>
+
+    </body>
+
+
+</html>
